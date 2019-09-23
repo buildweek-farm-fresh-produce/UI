@@ -175,3 +175,30 @@ table {
   font-display: swap;
   src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCs6KVjbNBYlgoKfw7z.ttf) format('truetype');
 }
+html {
+  font-family: 'Playfair Display', serif;
+  font-family: 'Mansalva', cursive;
+  font-family: 'Big Shoulders Text', cursive;
+  font-size: 62.5%;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+body {
+  display: flex;
+  background: red;
+}
+html {
+  font-family: 'Playfair Display', serif;
+  font-family: 'Mansalva', cursive;
+  font-family: 'Big Shoulders Text', cursive;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}

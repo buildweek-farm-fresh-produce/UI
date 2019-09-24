@@ -239,7 +239,7 @@ body {
 }
 .mainbuttons {
   position: relative;
-  bottom: 95px;
+  bottom: 194px;
   width: 50%;
   flex-direction: column;
   font-family: 'Big Shoulders Text', cursive;
@@ -312,16 +312,9 @@ h2 {
 }
 .bottom-content {
   position: relative;
-  top: -64px;
+  top: -160px;
   width: 65%;
   margin: 0px 0px 0px 274px;
-}
-footer {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  margin: 50px 0px;
 }
 .missionstatement {
   margin-top: 15px;
@@ -332,7 +325,155 @@ footer {
 }
 .upper-content {
   margin-top: 5px;
+  position: relative;
+  bottom: 101px;
 }
 p {
   padding: 5px;
+}
+.mid-content {
+  position: relative;
+  bottom: 101px;
+}
+#tomato1 {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  bottom: 100px;
+  left: 500px;
+}
+#tomato2 {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  bottom: 250px;
+  left: 532px;
+}
+.containerHome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  position: absolute;
+}
+.cards {
+  width: 60%;
+}
+h1 {
+  font-family: 'Mansalva', cursive;
+  font-size: 4.5rem;
+}
+body {
+  background-image: url("farmersmarketimage.png");
+}
+.cards {
+  position: relative;
+  bottom: 100px;
+  margin: 0px 0px 0px 322px;
+}
+.mainbuttons {
+  position: relative;
+  bottom: 194px;
+  width: 50%;
+  flex-direction: column;
+  font-family: 'Big Shoulders Text', cursive;
+  height: 50px;
+  display: flex;
+  left: 220px;
+  flex-direction: row;
+  padding: 0px 0px 0px 390px;
+}
+#farmers_box {
+  width: 200%;
+  margin: 0px 10px 0px 10px;
+}
+#consumers_box {
+  width: 200%;
+  margin: 0px 10px 0px 10px;
+}
+button {
+  border: 5px solid #556677;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  font-family: 'Big Shoulders Text', cursive;
+}
+h2 {
+  padding: 15px;
+}
+.background-boxes {
+  border: 10px solid white;
+  width: 80%;
+  height: 100vh;
+  position: absolute;
+  margin: auto 160px;
+}
+.background-boxes #smaller-box-1 {
+  border-top: 10px solid white;
+  border-bottom: 10px solid white;
+  width: 100%;
+  height: 20vh;
+  border-right: none;
+  border-left: none;
+  position: relative;
+  width: 20%;
+  height: 81%;
+  top: 124px;
+}
+.background-boxes #smaller-box-2 {
+  border-top: 10px solid white;
+  border-bottom: 10px solid white;
+  width: 100%;
+  height: 20vh;
+  border-right: none;
+  border-left: none;
+  position: relative;
+  width: 20%;
+  height: 81%;
+  top: -434px;
+  left: 270px;
+}
+.background-boxes #smaller-box-3 {
+  border-top: 10px solid white;
+  border-bottom: 10px solid white;
+  width: 100%;
+  height: 20vh;
+  border-right: none;
+  border-left: none;
+  position: relative;
+  width: 20%;
+  height: 81%;
+  top: -992px;
+  left: 541px;
+}
+.background-boxes #smaller-box-4 {
+  border-top: 10px solid white;
+  border-bottom: 10px solid white;
+  width: 100%;
+  height: 20vh;
+  border-right: none;
+  border-left: none;
+  position: relative;
+  width: 25%;
+  height: 44%;
+  top: -1438px;
+  left: 872px;
+}
+.mainbox {
+  background: #99AA77;
+  opacity: 0.4;
+}
+#tomato1 {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  bottom: 100px;
+  left: 500px;
+}
+#tomato2 {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  bottom: 250px;
+  left: 532px;
 }

@@ -477,3 +477,66 @@ h2 {
   bottom: 250px;
   left: 532px;
 }
+.border {
+  border-top: 5px dotted white;
+  width: 200px;
+  position: absolute;
+}
+#border1 {
+  position: relative;
+  left: 195px;
+  bottom: -100px;
+}
+#border2 {
+  position: relative;
+  bottom: -95px;
+  left: 466px;
+}
+#border3 {
+  position: relative;
+  left: 737px;
+  bottom: -90px;
+}
+.profiles {
+  border: 2px dashed #556677;
+  width: 250px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+}
+#Myco {
+  position: relative;
+  left: 170px;
+  bottom: 146px;
+}
+#Justin {
+  position: relative;
+  left: 170px;
+  bottom: 79px;
+}
+#Tolu {
+  position: relative;
+  left: 439px;
+  bottom: 546px;
+}
+#Armando {
+  position: relative;
+  left: 439px;
+  bottom: 479px;
+}
+#Jasmine {
+  position: relative;
+  left: 712px;
+  bottom: 946px;
+}
+#Jose {
+  position: relative;
+  left: 712px;
+  bottom: 880px;
+}
+#Katie {
+  position: relative;
+  left: 1072px;
+  bottom: 1231px;
+}

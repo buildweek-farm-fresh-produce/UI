@@ -126,6 +126,27 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+@font-face {
+  font-family: 'Big Shoulders Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Big Shoulders Text Regular'), local('BigShouldersText-Regular'), url(https://fonts.gstatic.com/s/bigshoulderstext/v1/55xxezRtP9G3CGPIf49hxc8P0eytUxBcm4Z_.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Mansalva';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Mansalva Regular'), local('Mansalva-Regular'), url(https://fonts.gstatic.com/s/mansalva/v1/aWB4m0aacbtDfvq5NKliKYo.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'), url(https://fonts.gstatic.com/s/playfairdisplay/v15/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYhQ.ttf) format('truetype');
+}
 * {
   box-sizing: border-box;
 }
@@ -134,16 +155,16 @@ html {
 }
 html,
 body {
-  font-family: 'Ubuntu', sans-serif;
-  color: #5E6164;
+  font-family: 'Playfair Display', serif;
+  color: black;
 }
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: 'Russo One', sans-serif;
-  color: #23293B;
+  font-family: 'Playfair Display', serif, Bold;
+  color: black;
 }
 h2 {
   font-size: 3.2rem;
@@ -155,165 +176,86 @@ p {
   font-size: 1.6rem;
   line-height: 1.4;
 }
-.container {
-  max-width: 800px;
+.containerHome {
   width: 100%;
   margin: 0 auto;
 }
-nav a {
-  text-decoration: none;
-  color: black;
-  padding: 5px 25px 5px 9px;
-  font-size: 1.2rem;
-  margin-left: 5px;
+header {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 140px;
+}
+nav button {
+  border-radius: 45%;
+  width: 200px;
+  height: 50px;
+  background: #778855;
+}
+.containerHome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  position: absolute;
+}
+h1 {
+  font-family: 'Mansalva', cursive;
+  font-size: 4.5rem;
+}
+body {
+  background-image: url("farmersmarketimage.png");
+}
+.cards {
+  position: relative;
+  bottom: 100px;
+}
+.mainbuttons {
+  position: relative;
+  bottom: 90px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 300px;
+}
+button {
+  border: 5px solid #556677;
+  border-radius: 20px;
+  font-size: 1.5rem;
+}
+h2 {
+  padding: 15px;
+}
+.background-boxes {
+  border: 10px solid white;
+  width: 80%;
+  height: 100vh;
+  position: absolute;
+  margin: auto 160px;
+}
+.background-boxes #smaller-box-bottom {
+  top: 510px;
+  border-top: 10px solid white;
+  border-bottom: 10px solid white;
+  width: 100%;
+  height: 20vh;
+  border-right: none;
+  border-left: none;
+  position: relative;
+}
+.mainbox {
+  background: #99AA77;
+  opacity: 0.4;
+}
+.bottom-content {
+  position: relative;
+  top: -69px;
 }
 footer {
-  color: #22283B;
-  background: #f4f4f4;
-  padding: 20px 0;
-  border: 1px double #e0e0e0;
-  border-radius: 10px;
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-.home .spacewalkers {
-  display: flex;
-  justify-content: center;
-}
-.home h1 {
-  font-size: 3rem;
-  padding: 0px 0px 0px 284px;
-}
-.home .intro h2 {
-  padding: 15px;
-}
-.home .intro p {
-  padding: 0 15px;
-}
-.home .space-images {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-.home .space-images img {
-  width: 28%;
-  margin: 20px 2.5%;
-  border-radius: 20px;
-  height: 100%;
-}
-.home .visit-planets {
-  padding: 15px;
-}
-.home .visit-planets h3 {
-  margin-top: 11px;
-}
-.home .visit-planets p {
-  margin-top: 13px;
-}
-.home .walk {
-  margin-top: 60px;
-  border-top: 1px solid #dee2e6;
-  padding: 50px 60px;
-  display: flex;
-  justify-content: center;
-}
-.home .walk .walk-text {
-  width: 50%;
-}
-.home .walk .walk-text h3 {
-  margin-bottom: 10px;
-}
-.home .walk .walk-text p {
-  margin-bottom: 26px;
-}
-.home .walk .walk-text .btn {
-  color: white;
-  background-color: navy;
-  border-radius: 8px;
-  width: 75px;
-  height: 30px;
-  border: none;
-}
-.home .walk .walk-text .btn:hover {
-  background-color: red;
-  color: black;
-}
-.home .walk .walk-img {
-  width: 46%;
-  margin-left: 4%;
-}
-.home .walk .walk-img img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-@media (max-width:500px) {
-  .home {
-    display: flex;
-    flex-direction: column;
-  }
-  .home img {
-    width: 100vw;
-    height: 20vh;
-  }
-  .home .walk .walk-text .btn {
-    width: 500px;
-    height: 70px;
-  }
-  .home h1 h1 {
-    padding: 100px 0px 0px 0px;
-  }
-  .home .space-images img {
-    width: 95vw;
-    height: 40vh;
-  }
-  .home .walk .walk-img {
-    width: 100%;
-    position: absolute;
-  }
-  .home .walk {
-    padding: initial;
-    display: initial;
-    justify-content: initial;
-    display: flex;
-  }
-  .home .walk .walk-text {
-    width: initial;
-    padding: 380px 0px 0px 0px;
-  }
-  .home h1 {
-    padding: 0px 0px 0px 135px;
-  }
-  .sky {
-    display: none;
-  }
-  .launch {
-    display: none;
-  }
-  .launch header {
-    display: flex;
-    justify-items: center;
-    text-align: center;
-  }
-  .launch .walk-text {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    width: 200vw;
-  }
-  .launch .home .walk {
-    display: flex;
-    justify-content: center;
-  }
-  .launch .walk-img {
-    position: relative;
-    top: 500px;
-  }
-  .launch .home .walk .walk-text .btn {
-    width: 300px;
-  }
-  .launch body footer {
-    margin: 0;
-  }
+  flex-direction: column;
+  text-align: center;
+  margin: 50px 0px;
 }

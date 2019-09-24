@@ -15,6 +15,9 @@
   position: absolute;
   
 }
+.cards{
+  width: 60%;
+}
 
 h1{
   font-family: 'Mansalva', cursive;
@@ -27,35 +30,44 @@ body {
 .cards{
   position: relative;
   bottom: 100px;
+  .centerWithMargins();
 }
 
 
 .mainbuttons{
   position: relative;
-  bottom: 90px;
+  bottom: 95px;
   width: 50%;
   display: flex;
   flex-direction: column;
-  margin-left: 300px;
-      
-
+  font-family: 'Big Shoulders Text', cursive;
+  height: 50px;
+  display: flex;
+  left: 220px;
+  flex-direction: row;
+  padding: 0px 0px 0px 390px;
 }
-
 
 #farmers_box{
-
+  width: 200%;
+  margin: 0px 10px 0px 10px;
 }
 
-
-
+#consumers_box{
+  width: 200%;
+  margin: 0px 10px 0px 10px;
+}
 
 button{
   border: 5px solid @blue;
   border-radius: 20px;
   font-size:1.5rem;
+  font-family: 'Big Shoulders Text', cursive;
+  
 }
 
 
+  
 
 h2{
   padding: 15px;
@@ -67,20 +79,35 @@ h2{
   height: 100vh;
   position: absolute;
   margin: auto 160px;
-  #smaller-box-bottom{
-    top: 510px;
+  #smaller-box-top{
     .boxstyling();
+    height: 31%;
+    top: 123px;
+  }
+  #smaller-box-mid{
+    .boxstyling();
+    height: 26%;
+    top: 127px;
+  }
+  #smaller-box-bottom{
+    .boxstyling();
+    top: 131px;
+    height: 20%;
+    
   }
 }
 
 .mainbox{
-  background: @light-green;
-  opacity: 0.4
+  .miniboxesstyling();
 }
+
+
 
 .bottom-content{
   position: relative;
-  top: -69px;
+  top: -64px;
+  width: 65%;
+  margin: 0px 0px 0px 274px;
 }
 
 footer{
@@ -91,3 +118,18 @@ footer{
   margin: 50px 0px;
 }
 
+.missionstatement{
+  margin-top: 15px;
+}
+
+.aboutfarmfresh{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.upper-content{
+  margin-top: 5px;
+}
+p{
+  padding: 5px;
+}

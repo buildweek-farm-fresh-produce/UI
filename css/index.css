@@ -184,13 +184,35 @@ header {
   display: flex;
   justify-content: center;
   position: relative;
-  bottom: 140px;
+  bottom: 100px;
 }
 nav button {
   border-radius: 45%;
   width: 200px;
   height: 50px;
-  background: #778855;
+  background: #99AA77;
+  letter-spacing: 5px;
+  margin: 0px 20px;
+  position: relative;
+  bottom: -22px;
+}
+.behindnav {
+  border: 5px solid #99AA77;
+  background-color: white;
+  width: 75%;
+  height: 21px;
+  position: relative;
+  bottom: -103px;
+  left: 199px;
+}
+.behindheader {
+  left: 230px;
+  border: 10px solid #99AA77;
+  background-color: white;
+  width: 70%;
+  height: 95px;
+  position: relative;
+  bottom: 20px;
 }
 .containerHome {
   display: flex;
@@ -199,6 +221,9 @@ nav button {
   text-align: center;
   flex-wrap: wrap;
   position: absolute;
+}
+.cards {
+  width: 60%;
 }
 h1 {
   font-family: 'Mansalva', cursive;
@@ -210,19 +235,33 @@ body {
 .cards {
   position: relative;
   bottom: 100px;
+  margin: 0px 0px 0px 322px;
 }
 .mainbuttons {
   position: relative;
-  bottom: 90px;
+  bottom: 95px;
   width: 50%;
-  display: flex;
   flex-direction: column;
-  margin-left: 300px;
+  font-family: 'Big Shoulders Text', cursive;
+  height: 50px;
+  display: flex;
+  left: 220px;
+  flex-direction: row;
+  padding: 0px 0px 0px 390px;
+}
+#farmers_box {
+  width: 200%;
+  margin: 0px 10px 0px 10px;
+}
+#consumers_box {
+  width: 200%;
+  margin: 0px 10px 0px 10px;
 }
 button {
   border: 5px solid #556677;
   border-radius: 20px;
   font-size: 1.5rem;
+  font-family: 'Big Shoulders Text', cursive;
 }
 h2 {
   padding: 15px;
@@ -234,8 +273,7 @@ h2 {
   position: absolute;
   margin: auto 160px;
 }
-.background-boxes #smaller-box-bottom {
-  top: 510px;
+.background-boxes #smaller-box-top {
   border-top: 10px solid white;
   border-bottom: 10px solid white;
   width: 100%;
@@ -243,6 +281,30 @@ h2 {
   border-right: none;
   border-left: none;
   position: relative;
+  height: 31%;
+  top: 123px;
+}
+.background-boxes #smaller-box-mid {
+  border-top: 10px solid white;
+  border-bottom: 10px solid white;
+  width: 100%;
+  height: 20vh;
+  border-right: none;
+  border-left: none;
+  position: relative;
+  height: 26%;
+  top: 127px;
+}
+.background-boxes #smaller-box-bottom {
+  border-top: 10px solid white;
+  border-bottom: 10px solid white;
+  width: 100%;
+  height: 20vh;
+  border-right: none;
+  border-left: none;
+  position: relative;
+  top: 131px;
+  height: 20%;
 }
 .mainbox {
   background: #99AA77;
@@ -250,7 +312,9 @@ h2 {
 }
 .bottom-content {
   position: relative;
-  top: -69px;
+  top: -64px;
+  width: 65%;
+  margin: 0px 0px 0px 274px;
 }
 footer {
   display: flex;
@@ -258,4 +322,17 @@ footer {
   flex-direction: column;
   text-align: center;
   margin: 50px 0px;
+}
+.missionstatement {
+  margin-top: 15px;
+}
+.aboutfarmfresh {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.upper-content {
+  margin-top: 5px;
+}
+p {
+  padding: 5px;
 }

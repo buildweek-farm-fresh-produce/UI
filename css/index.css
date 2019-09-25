@@ -258,10 +258,14 @@ body {
 #farmers_box {
   width: 200%;
   margin: 0px 10px 0px 10px;
+  position: relative;
+  bottom: 15px;
 }
 #consumers_box {
   width: 200%;
   margin: 0px 10px 0px 10px;
+  position: relative;
+  bottom: 15px;
 }
 button {
   border: 5px solid #556677;
@@ -346,14 +350,14 @@ p {
   height: 50px;
   position: relative;
   bottom: 100px;
-  left: 500px;
+  left: 518px;
 }
 #tomato2 {
   width: 50px;
   height: 50px;
   position: relative;
   bottom: 250px;
-  left: 532px;
+  left: 507px;
 }
 #farmers_box#farmers_box:hover {
   background: #99AA77;

@@ -535,6 +535,9 @@ h2 {
   left: 170px;
   bottom: 79px;
 }
+#Jason .biotext {
+  font-size: 0.8rem;
+}
 #Tolu {
   position: relative;
   left: 439px;
@@ -554,6 +557,9 @@ h2 {
   position: relative;
   left: 712px;
   bottom: 880px;
+}
+#Jose .bio {
+  left: -111px;
 }
 #Katie {
   position: relative;
@@ -645,7 +651,6 @@ h2 {
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    max-width: 100%;
   }
   .behindheader {
     width: 98%;
@@ -774,6 +779,9 @@ h2 {
     height: 227px;
     top: -2291px;
     left: 296px;
+  }
+  #Jose .bio {
+    left: -18px;
   }
   #border3 {
     position: relative;

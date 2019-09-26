@@ -365,6 +365,9 @@ p {
 #consumers_box#consumers_box:hover {
   background: #99AA77;
 }
+.mobileviewimage {
+  opacity: 0;
+}
 .containerHome {
   display: flex;
   flex-direction: column;
@@ -615,11 +618,17 @@ h2 {
   * {
     max-width: 100%;
   }
+  html,
+  body {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
   .background-boxes {
     width: 80%;
     position: relative;
     right: 100px;
     height: 300vh;
+    max-width: 100%;
   }
   .background-boxes #smaller-box-top {
     height: 21%;
@@ -636,6 +645,7 @@ h2 {
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    max-width: 100%;
   }
   .behindheader {
     width: 98%;
@@ -679,39 +689,137 @@ h2 {
     top: -1900px;
   }
   .background-boxes #smaller-box-1 {
-    height: 60vh;
+    height: 70vh;
     width: 100vw;
   }
   .background-boxes #smaller-box-2 {
-    height: 60vh;
+    height: 70vh;
     width: 100vw;
     left: 0px;
     top: 140px;
   }
   .background-boxes #smaller-box-3 {
-    height: 60vh;
+    height: 70vh;
     width: 100vw;
     left: 0px;
     top: 160px;
   }
   .background-boxes #smaller-box-4 {
-    height: 60vh;
+    height: 50vh;
     width: 100vw;
     left: 0px;
     top: 180px;
   }
   #Myco {
-    width: 379px;
+    width: 222px;
     height: 184px;
     position: relative;
-    top: -1926px;
+    top: -1861px;
     left: 71px;
   }
+  #Myco .biotext {
+    font-size: 7px;
+  }
+  #border1 {
+    position: relative;
+    top: -1653px;
+    left: 86px;
+  }
   #Jason {
-    width: 379px;
+    width: 222px;
+    height: 196px;
+    position: relative;
+    top: -1837px;
+    left: 71px;
+  }
+  #Jason .biotext {
+    font-size: 7px;
+  }
+  #Tolu {
+    width: 155px;
+    height: 227px;
+    position: relative;
+    top: -2160px;
+    left: 296px;
+  }
+  #border2 {
+    position: relative;
+    top: -1205px;
+    left: 164px;
+  }
+  #Armando {
+    width: 222px;
     height: 184px;
     position: relative;
-    top: -1926px;
+    top: -2015px;
     left: 71px;
+  }
+  #Armando .biotext {
+    font-size: 7px;
+  }
+  #border2 {
+    position: relative;
+    top: -1199px;
+    left: 81px;
+  }
+  #Jasmine {
+    width: 222px;
+    height: 184px;
+    position: relative;
+    top: -1987px;
+    left: 71px;
+  }
+  #Jose {
+    width: 155px;
+    height: 227px;
+    top: -2291px;
+    left: 296px;
+  }
+  #border3 {
+    position: relative;
+    top: -950px;
+    left: 153px;
+  }
+  #Katie {
+    position: relative;
+    top: -2114px;
+    left: 127px;
+  }
+  .bio {
+    left: -24px;
+  }
+  .name {
+    left: 17px;
+  }
+  .title {
+    left: -5px;
+    color: white;
+  }
+  .biotext {
+    font-size: 10px;
+  }
+  .containsHome {
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  body {
+    width: auto;
+    height: auto;
+  }
+  #tomato1 {
+    left: 200px;
+    bottom: 700px;
+  }
+  #tomato2 {
+    left: 200px;
+    bottom: 700px;
+  }
+  .mobileviewimage {
+    opacity: 1;
+    width: 53%;
+    height: 60%;
+    position: relative;
+    bottom: 230px;
+    right: -124px;
   }
 }

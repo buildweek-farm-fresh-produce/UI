@@ -2,11 +2,11 @@
 
 [Farm Fresh Produce](https://relaxed-shaw-561e89.netlify.com)
 
-##About Farm Fresh Produce:
+## About Farm Fresh Produce:
 
 We are a company designed to allow consumers to get their produce directly from farmers. This cuts out the 'middle man' and allows consumers to get fresher produce!
 
-##Layout:
+## Layout:
 
 When opening the html for this page you will find several buttons. 
 

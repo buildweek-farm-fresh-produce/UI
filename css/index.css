@@ -243,9 +243,22 @@ body {
   bottom: 100px;
   margin: 0px 0px 0px 322px;
 }
+.missionstatement {
+  position: relative;
+  bottom: -19px;
+}
+.howtogetStarted {
+  position: relative;
+  bottom: -19px;
+}
+.main-content {
+  position: relative;
+  bottom: 20px;
+  font-size: 1.2rem;
+}
 .mainbuttons {
   position: relative;
-  bottom: 194px;
+  bottom: 170px;
   width: 50%;
   flex-direction: column;
   font-family: 'Big Shoulders Text', cursive;
@@ -343,7 +356,7 @@ p {
 }
 .mid-content {
   position: relative;
-  bottom: 101px;
+  bottom: 82px;
 }
 #tomato1 {
   width: 50px;
@@ -449,7 +462,7 @@ h2 {
   position: relative;
   width: 20%;
   height: 81%;
-  top: -434px;
+  top: -472px;
   left: 270px;
 }
 .background-boxes #smaller-box-3 {
@@ -462,7 +475,7 @@ h2 {
   position: relative;
   width: 20%;
   height: 81%;
-  top: -992px;
+  top: -1069px;
   left: 541px;
 }
 .background-boxes #smaller-box-4 {
@@ -475,7 +488,7 @@ h2 {
   position: relative;
   width: 25%;
   height: 44%;
-  top: -1438px;
+  top: -1545px;
   left: 872px;
 }
 .mainbox {
